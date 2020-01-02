@@ -6,5 +6,5 @@
 
   tasks:
     - name: "Install python dependencies"
-      pip:
-        name: RPi.GPIO
+      shell:
+        "sudo pip3 install RPi.GPIO"
